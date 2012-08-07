@@ -1,0 +1,376 @@
+info it worked if it ends with ok
+verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+verbose cli   'install',
+verbose cli   'libxmljs',
+verbose cli   '--save' ]
+info using npm@1.1.21
+info using node@v0.6.17
+verbose C:\Program Files (x86)\nodejs\\node.exe node symlink
+verbose config file C:\Users\Ryan\.npmrc
+verbose config file C:\Program Files (x86)\nodejs\etc\npmrc
+verbose config file C:\Program Files (x86)\nodejs\node_modules\npm\npmrc
+verbose caching C:\Users\Ryan\Projects\HotPie\package.json
+verbose loadDefaults application-name@0.0.1
+verbose caching C:\Users\Ryan\Projects\HotPie\node_modules\coffee-script\package.json
+verbose caching C:\Users\Ryan\Projects\HotPie\node_modules\express\package.json
+verbose caching C:\Users\Ryan\Projects\HotPie\node_modules\mocha\package.json
+verbose caching C:\Users\Ryan\Projects\HotPie\node_modules\jade\package.json
+verbose caching C:\Users\Ryan\Projects\HotPie\node_modules\node-dev\package.json
+verbose caching C:\Users\Ryan\Projects\HotPie\node_modules\node-gyp\package.json
+verbose caching C:\Users\Ryan\Projects\HotPie\node_modules\request\package.json
+verbose from cache C:\Users\Ryan\Projects\HotPie\package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'libxmljs', null ]
+silly cache add: name, spec, args [ undefined, 'libxmljs', [ 'libxmljs', null ] ]
+verbose parsed url { pathname: 'libxmljs', path: 'libxmljs', href: 'libxmljs' }
+verbose addNamed [ 'libxmljs', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'libxmljs', '', false ]
+verbose raw, before any munging libxmljs
+verbose url resolving [ 'https://registry.npmjs.org/', './libxmljs' ]
+verbose url resolved https://registry.npmjs.org/libxmljs
+verbose etag "87TMDRHO2DCC45BEZ18BZYMCS"
+http GET https://registry.npmjs.org/libxmljs
+http 304 https://registry.npmjs.org/libxmljs
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"87TMDRHO2DCC45BEZ18BZYMCS"',
+silly get cb     date: 'Mon, 06 Aug 2012 21:05:11 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag libxmljs from cache
+silly name, range, hasData 2 [ 'libxmljs', '', true ]
+silly versions [ 'libxmljs',
+silly versions   [ '0.4.1',
+silly versions     '0.4.2',
+silly versions     '0.4.3',
+silly versions     '0.5.0',
+silly versions     '0.5.1',
+silly versions     '0.5.2',
+silly versions     '0.5.3',
+silly versions     '0.5.4',
+silly versions     '0.6.0' ] ]
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: '015adb4579e6940dbcdb5363cd6ee98354a5af14',
+verbose bin dist     tarball: 'http://registry.npmjs.org/libxmljs/-/libxmljs-0.6.0.tgz' } ]
+verbose has bindings.gyp [ undefined,
+verbose has bindings.gyp   { file: 'C:\\Users\\Ryan\\AppData\\Roaming\\npm-cache\\libxmljs\\0.6.0\\package\\package.json',
+verbose has bindings.gyp     gypfile: true,
+verbose has bindings.gyp     contributors: false,
+verbose has bindings.gyp     serverjs: false,
+verbose has bindings.gyp     wscript: true } ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: 'C:\\Users\\Ryan\\AppData\\Roaming\\npm-cache\\libxmljs\\0.6.0\\package\\package.json',
+verbose has wscript     gypfile: true,
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+verbose caching C:\Users\Ryan\AppData\Roaming\npm-cache\libxmljs\0.6.0\package\package.json
+verbose loadDefaults libxmljs@0.6.0
+silly resolved [ { name: 'libxmljs',
+silly resolved     author: { name: 'Marco Rogers - http://github.com/polotek' },
+silly resolved     contributors: [ { name: 'Jeff Smick' } ],
+silly resolved     description: 'libxml bindings for v8 javascript engine',
+silly resolved     version: '0.6.0',
+silly resolved     scripts: 
+silly resolved      { test: 'node --expose_gc ./node_modules/nodeunit/bin/nodeunit test',
+silly resolved        install: 'node-gyp rebuild' },
+silly resolved     repository: { type: 'git', url: 'git://github.com/polotek/libxmljs.git' },
+silly resolved     bugs: { url: 'http://github.com/polotek/libxmljs/issues' },
+silly resolved     main: './index',
+silly resolved     engines: { node: '>=0.4.7' },
+silly resolved     dependencies: { bindings: '1.0.0' },
+silly resolved     devDependencies: { nodeunit: '*' },
+silly resolved     _id: 'libxmljs@0.6.0',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.21',
+silly resolved     _nodeVersion: 'v0.6.17',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'libxmljs' } ]
+info into C:\Users\Ryan\Projects\HotPie libxmljs@0.6.0
+info installOne libxmljs@0.6.0
+verbose from cache C:\Users\Ryan\AppData\Roaming\npm-cache\libxmljs\0.6.0\package\package.json
+info unbuild C:\Users\Ryan\Projects\HotPie\node_modules\libxmljs
+verbose unpack C:\Users\Ryan\AppData\Roaming\npm-cache\libxmljs\0.6.0\package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry .npmignore
+silly modified mode [ '.npmignore', 438, 420 ]
+silly extracting entry README.md
+silly modified mode [ 'README.md', 438, 420 ]
+silly extracting entry LICENSE
+silly modified mode [ 'LICENSE', 438, 420 ]
+silly extracting entry index.js
+silly modified mode [ 'index.js', 438, 420 ]
+silly extracting entry lib/bindings.js
+silly modified mode [ 'lib/bindings.js', 438, 420 ]
+silly extracting entry lib/document.js
+silly modified mode [ 'lib/document.js', 438, 420 ]
+silly extracting entry lib/element.js
+silly modified mode [ 'lib/element.js', 438, 420 ]
+silly extracting entry lib/sax_parser.js
+silly modified mode [ 'lib/sax_parser.js', 438, 420 ]
+silly extracting entry .travis.yml
+silly modified mode [ '.travis.yml', 438, 420 ]
+silly extracting entry Makefile
+silly modified mode [ 'Makefile', 438, 420 ]
+silly extracting entry docs/api/Attribute.md
+silly modified mode [ 'docs/api/Attribute.md', 438, 420 ]
+silly extracting entry docs/api/Element.md
+silly modified mode [ 'docs/api/Element.md', 438, 420 ]
+silly extracting entry docs/api/HtmlDocument.md
+silly modified mode [ 'docs/api/HtmlDocument.md', 438, 420 ]
+silly extracting entry docs/api/Libxmljs.md
+silly modified mode [ 'docs/api/Libxmljs.md', 438, 420 ]
+silly extracting entry docs/api/Namespace.md
+silly modified mode [ 'docs/api/Namespace.md', 438, 420 ]
+silly extracting entry docs/api/Parser.md
+silly modified mode [ 'docs/api/Parser.md', 438, 420 ]
+silly extracting entry docs/api/SaxParser.md
+silly modified mode [ 'docs/api/SaxParser.md', 438, 420 ]
+silly extracting entry docs/api/SaxPushParser.md
+silly modified mode [ 'docs/api/SaxPushParser.md', 438, 420 ]
+silly extracting entry docs/api/SyntaxError.md
+silly modified mode [ 'docs/api/SyntaxError.md', 438, 420 ]
+silly extracting entry docs/api/XmlDocument.md
+silly modified mode [ 'docs/api/XmlDocument.md', 438, 420 ]
+silly extracting entry docs/Home.md
+silly modified mode [ 'docs/Home.md', 438, 420 ]
+silly extracting entry docs/_Sidebar.md
+silly modified mode [ 'docs/_Sidebar.md', 438, 420 ]
+silly extracting entry binding.gyp
+silly modified mode [ 'binding.gyp', 438, 420 ]
+silly extracting entry src/xml_namespace.cc
+silly modified mode [ 'src/xml_namespace.cc', 438, 420 ]
+silly extracting entry src/html_document.cc
+silly modified mode [ 'src/html_document.cc', 438, 420 ]
+silly extracting entry src/libxmljs.cc
+silly modified mode [ 'src/libxmljs.cc', 438, 420 ]
+silly extracting entry src/libxmljs.h
+silly modified mode [ 'src/libxmljs.h', 438, 420 ]
+silly extracting entry src/xml_attribute.cc
+silly modified mode [ 'src/xml_attribute.cc', 438, 420 ]
+silly extracting entry src/xml_attribute.h
+silly modified mode [ 'src/xml_attribute.h', 438, 420 ]
+silly extracting entry src/xml_document.cc
+silly modified mode [ 'src/xml_document.cc', 438, 420 ]
+silly extracting entry src/xml_document.h
+silly modified mode [ 'src/xml_document.h', 438, 420 ]
+silly extracting entry src/xml_element.cc
+silly modified mode [ 'src/xml_element.cc', 438, 420 ]
+silly extracting entry src/xml_element.h
+silly modified mode [ 'src/xml_element.h', 438, 420 ]
+silly extracting entry src/html_document.h
+silly modified mode [ 'src/html_document.h', 438, 420 ]
+silly extracting entry src/xml_namespace.h
+silly modified mode [ 'src/xml_namespace.h', 438, 420 ]
+silly extracting entry src/xml_node.cc
+silly modified mode [ 'src/xml_node.cc', 438, 420 ]
+silly extracting entry src/xml_node.h
+silly modified mode [ 'src/xml_node.h', 438, 420 ]
+silly extracting entry src/xml_sax_parser.cc
+silly modified mode [ 'src/xml_sax_parser.cc', 438, 420 ]
+silly extracting entry src/xml_sax_parser.h
+silly modified mode [ 'src/xml_sax_parser.h', 438, 420 ]
+silly extracting entry src/xml_syntax_error.cc
+silly modified mode [ 'src/xml_syntax_error.cc', 438, 420 ]
+silly extracting entry src/xml_syntax_error.h
+silly modified mode [ 'src/xml_syntax_error.h', 438, 420 ]
+silly extracting entry src/xml_xpath_context.cc
+silly modified mode [ 'src/xml_xpath_context.cc', 438, 420 ]
+silly extracting entry src/xml_xpath_context.h
+silly modified mode [ 'src/xml_xpath_context.h', 438, 420 ]
+silly extracting entry test/attribute.js
+silly modified mode [ 'test/attribute.js', 438, 420 ]
+silly extracting entry test/xml_parser.js
+silly modified mode [ 'test/xml_parser.js', 438, 420 ]
+silly extracting entry test/html_parser.js
+silly modified mode [ 'test/html_parser.js', 438, 420 ]
+silly extracting entry test/main.js
+silly modified mode [ 'test/main.js', 438, 420 ]
+silly extracting entry test/element.js
+silly modified mode [ 'test/element.js', 438, 420 ]
+silly extracting entry test/document.js
+silly modified mode [ 'test/document.js', 438, 420 ]
+silly extracting entry test/ref_integrity.js
+silly modified mode [ 'test/ref_integrity.js', 438, 420 ]
+silly extracting entry test/searching.js
+silly modified mode [ 'test/searching.js', 438, 420 ]
+silly extracting entry test/text_node.js
+silly modified mode [ 'test/text_node.js', 438, 420 ]
+silly extracting entry test/traversal.js
+silly modified mode [ 'test/traversal.js', 438, 420 ]
+silly extracting entry test/namespace.js
+silly modified mode [ 'test/namespace.js', 438, 420 ]
+silly extracting entry test/xml_sax_parser.js
+silly modified mode [ 'test/xml_sax_parser.js', 438, 420 ]
+silly extracting entry test/node_attributes.js
+silly modified mode [ 'test/node_attributes.js', 438, 420 ]
+silly extracting entry test/fixtures/errors/comment.xml
+silly modified mode [ 'test/fixtures/errors/comment.xml', 438, 420 ]
+silly extracting entry test/fixtures/parser-utf16.xml
+silly modified mode [ 'test/fixtures/parser-utf16.xml', 438, 420 ]
+silly extracting entry test/fixtures/parser.html
+silly modified mode [ 'test/fixtures/parser.html', 438, 420 ]
+silly extracting entry test/fixtures/parser.xml
+silly modified mode [ 'test/fixtures/parser.xml', 438, 420 ]
+silly extracting entry test/fixtures/sax_parser.xml
+silly modified mode [ 'test/fixtures/sax_parser.xml', 438, 420 ]
+silly extracting entry test/fixtures/warnings/amp.html
+silly modified mode [ 'test/fixtures/warnings/amp.html', 438, 420 ]
+silly extracting entry test/fixtures/warnings/ent9.xml
+silly modified mode [ 'test/fixtures/warnings/ent9.xml', 438, 420 ]
+silly extracting entry wscript
+silly modified mode [ 'wscript', 438, 420 ]
+verbose has bindings.gyp [ undefined,
+verbose has bindings.gyp   { file: 'C:\\Users\\Ryan\\Projects\\HotPie\\node_modules\\libxmljs\\package.json',
+verbose has bindings.gyp     gypfile: true,
+verbose has bindings.gyp     serverjs: false,
+verbose has bindings.gyp     contributors: false,
+verbose has bindings.gyp     wscript: true } ]
+verbose has wscript [ undefined,
+verbose has wscript   { file: 'C:\\Users\\Ryan\\Projects\\HotPie\\node_modules\\libxmljs\\package.json',
+verbose has wscript     gypfile: true,
+verbose has wscript     serverjs: false,
+verbose has wscript     contributors: false,
+verbose has wscript     wscript: true } ]
+verbose caching C:\Users\Ryan\Projects\HotPie\node_modules\libxmljs\package.json
+verbose loadDefaults libxmljs@0.6.0
+info preinstall libxmljs@0.6.0
+verbose from cache C:\Users\Ryan\Projects\HotPie\node_modules\libxmljs\package.json
+verbose readDependencies: using package.json deps
+verbose from cache C:\Users\Ryan\Projects\HotPie\node_modules\libxmljs\package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'bindings@1.0.0', null ]
+silly cache add: name, spec, args [ undefined, 'bindings@1.0.0', [ 'bindings@1.0.0', null ] ]
+verbose parsed url { pathname: 'bindings@1.0.0',
+verbose parsed url   path: 'bindings@1.0.0',
+verbose parsed url   href: 'bindings@1.0.0' }
+silly cache add: name, spec, args [ 'bindings', '1.0.0', [ 'bindings', '1.0.0' ] ]
+verbose parsed url { pathname: '1.0.0', path: '1.0.0', href: '1.0.0' }
+verbose addNamed [ 'bindings', '1.0.0' ]
+verbose addNamed [ '1.0.0', '1.0.0' ]
+verbose raw, before any munging bindings/1.0.0
+verbose url resolving [ 'https://registry.npmjs.org/', './bindings/1.0.0' ]
+verbose url resolved https://registry.npmjs.org/bindings/1.0.0
+verbose etag "9CDSAO5SUKGL1PSF6CQJXJK23"
+http GET https://registry.npmjs.org/bindings/1.0.0
+http 304 https://registry.npmjs.org/bindings/1.0.0
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"9CDSAO5SUKGL1PSF6CQJXJK23"',
+silly get cb     date: 'Mon, 06 Aug 2012 21:05:13 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag bindings/1.0.0 from cache
+verbose bin dist [ '0.6-ares1.7.5-DEV-evundefined-openssl0.9.8r-v83.6.6.25-win32-ia32-6.1.7601',
+verbose bin dist   { shasum: 'c3ccde60e9de6807c6f1aa4ef4843af29191c828',
+verbose bin dist     tarball: 'http://registry.npmjs.org/bindings/-/bindings-1.0.0.tgz' } ]
+verbose caching C:\Users\Ryan\AppData\Roaming\npm-cache\bindings\1.0.0\package\package.json
+verbose loadDefaults bindings@1.0.0
+silly resolved [ { name: 'bindings',
+silly resolved     description: 'Helper module for loading your native module\'s .node file',
+silly resolved     keywords: [ 'native', 'addon', 'bindings', 'gyp', 'waf', 'c', 'c++' ],
+silly resolved     version: '1.0.0',
+silly resolved     author: 
+silly resolved      { name: 'Nathan Rajlich',
+silly resolved        email: 'nathan@tootallnate.net',
+silly resolved        url: 'http://tootallnate.net' },
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/TooTallNate/node-bindings.git' },
+silly resolved     main: './bindings.js',
+silly resolved     _id: 'bindings@1.0.0',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.21',
+silly resolved     _nodeVersion: 'v0.6.17',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'bindings@1.0.0',
+silly resolved     scripts: {} } ]
+info into C:\Users\Ryan\Projects\HotPie\node_modules\libxmljs bindings@1.0.0
+info installOne bindings@1.0.0
+verbose from cache C:\Users\Ryan\AppData\Roaming\npm-cache\bindings\1.0.0\package\package.json
+info unbuild C:\Users\Ryan\Projects\HotPie\node_modules\libxmljs\node_modules\bindings
+verbose unpack C:\Users\Ryan\AppData\Roaming\npm-cache\bindings\1.0.0\package.tgz
+silly gunzTarPerm modes [ '755', '644' ]
+silly extracting entry package.json
+silly modified mode [ 'package.json', 438, 420 ]
+silly extracting entry README.md
+silly modified mode [ 'README.md', 438, 420 ]
+silly extracting entry bindings.js
+silly modified mode [ 'bindings.js', 438, 420 ]
+verbose caching C:\Users\Ryan\Projects\HotPie\node_modules\libxmljs\node_modules\bindings\package.json
+verbose loadDefaults bindings@1.0.0
+info preinstall bindings@1.0.0
+verbose from cache C:\Users\Ryan\Projects\HotPie\node_modules\libxmljs\node_modules\bindings\package.json
+verbose readDependencies: using package.json deps
+verbose from cache C:\Users\Ryan\Projects\HotPie\node_modules\libxmljs\node_modules\bindings\package.json
+verbose readDependencies: using package.json deps
+silly resolved []
+verbose about to build C:\Users\Ryan\Projects\HotPie\node_modules\libxmljs\node_modules\bindings
+info build C:\Users\Ryan\Projects\HotPie\node_modules\libxmljs\node_modules\bindings
+verbose from cache C:\Users\Ryan\Projects\HotPie\node_modules\libxmljs\node_modules\bindings\package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   'C:\\Users\\Ryan\\Projects\\HotPie\\node_modules\\libxmljs\\node_modules' ]
+info linkStuff bindings@1.0.0
+verbose linkBins bindings@1.0.0
+verbose linkMans bindings@1.0.0
+verbose rebuildBundles bindings@1.0.0
+info install bindings@1.0.0
+info postinstall bindings@1.0.0
+verbose about to build C:\Users\Ryan\Projects\HotPie\node_modules\libxmljs
+info build C:\Users\Ryan\Projects\HotPie\node_modules\libxmljs
+verbose from cache C:\Users\Ryan\Projects\HotPie\node_modules\libxmljs\package.json
+verbose linkStuff [ false,
+verbose linkStuff   false,
+verbose linkStuff   false,
+verbose linkStuff   'C:\\Users\\Ryan\\Projects\\HotPie\\node_modules' ]
+info linkStuff libxmljs@0.6.0
+verbose linkBins libxmljs@0.6.0
+verbose linkMans libxmljs@0.6.0
+verbose rebuildBundles libxmljs@0.6.0
+verbose rebuildBundles [ 'bindings' ]
+info install libxmljs@0.6.0
+verbose unsafe-perm in lifecycle true
+silly exec cmd "/c" "node-gyp rebuild"
+silly spawning [ 'cmd',
+silly spawning   [ '/c', 'node-gyp rebuild' ],
+silly spawning   'C:\\Users\\Ryan\\Projects\\HotPie\\node_modules\\libxmljs' ]
+info libxmljs@0.6.0 Failed to exec install script
+info unbuild C:\Users\Ryan\Projects\HotPie\node_modules\libxmljs
+verbose from cache C:\Users\Ryan\Projects\HotPie\node_modules\libxmljs\package.json
+info preuninstall libxmljs@0.6.0
+info uninstall libxmljs@0.6.0
+verbose unbuild libxmljs@0.6.0 [ true,
+verbose unbuild libxmljs@0.6.0   'C:\\Users\\Ryan\\Projects\\HotPie\\node_modules',
+verbose unbuild libxmljs@0.6.0   'C:\\Users\\Ryan\\Projects\\HotPie\\node_modules' ]
+info postuninstall libxmljs@0.6.0
+ERR! libxmljs@0.6.0 install: `node-gyp rebuild`
+ERR! `cmd "/c" "node-gyp rebuild"` failed with 1
+ERR! 
+ERR! Failed at the libxmljs@0.6.0 install script.
+ERR! This is most likely a problem with the libxmljs package,
+ERR! not with npm itself.
+ERR! Tell the author that this fails on your system:
+ERR!     node-gyp rebuild
+ERR! You can get their info via:
+ERR!     npm owner ls libxmljs
+ERR! There is likely additional logging output above.
+ERR! 
+ERR! System Windows_NT 6.1.7601
+ERR! command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "libxmljs" "--save"
+ERR! cwd C:\Users\Ryan\Projects\HotPie
+ERR! node -v v0.6.17
+ERR! npm -v 1.1.21
+ERR! code ELIFECYCLE
+ERR! message libxmljs@0.6.0 install: `node-gyp rebuild`
+ERR! message `cmd "/c" "node-gyp rebuild"` failed with 1
+ERR! errno {}
+verbose exit [ 1, true ]
